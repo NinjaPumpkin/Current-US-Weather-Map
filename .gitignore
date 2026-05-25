@@ -1,0 +1,5 @@
+node_modules/
+.env
+*.log
+data/satellite/*.jpg
+.DS_Store

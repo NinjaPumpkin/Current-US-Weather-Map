@@ -1,0 +1,65 @@
+name: Fetch Satellite & Disaster Data
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Force refresh all data
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch satellite metadata
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Fetching GOES satellite metadata..."
+          node scripts/fetch-satellite-metadata.js
+
+      - name: Fetch EONET disaster events
+        run: |
+          echo "Fetching NASA EONET events..."
+          curl -s --max-time 15 "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&limit=100&bbox=-125,24,-66,50"             -o data/eonet-events.json || echo '{"events":[]}' > data/eonet-events.json
+          echo "EONET events saved."
+
+          curl -s --max-time 15 "https://eonet.gsfc.nasa.gov/api/v3/categories/8?status=open&limit=50"             -o data/eonet-wildfires.json || echo '{"events":[]}' > data/eonet-wildfires.json
+          echo "EONET wildfires saved."
+
+      - name: Fetch EONET severe storms
+        run: |
+          curl -s --max-time 15 "https://eonet.gsfc.nasa.gov/api/v3/categories/10?status=open&limit=30"             -o data/eonet-storms.json || echo '{"events":[]}' > data/eonet-storms.json
+          echo "EONET storms saved."
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/
+
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
+            git commit -m "data: auto-update satellite and disaster data ($TIMESTAMP)"
+            git push
+            echo "Data updated and pushed."
+          fi

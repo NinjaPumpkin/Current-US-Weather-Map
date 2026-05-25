@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>US Weather Map - Real-Time Data Dashboard</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a1a; color: #e0e0e0; }
+    .header { background: linear-gradient(135deg, #1a1a2e, #16213e); padding: 20px; text-align: center; border-bottom: 1px solid #333; }
+    .header h1 { font-size: 1.8rem; color: #00d4ff; }
+    .header p { color: #888; margin-top: 5px; font-size: 0.9rem; }
+    .status-bar { background: #111; padding: 10px 20px; display: flex; gap: 20px; font-size: 0.8rem; border-bottom: 1px solid #222; }
+    .status-bar .status { display: flex; align-items: center; gap: 5px; }
+    .status-bar .dot { width: 8px; height: 8px; border-radius: 50%; }
+    .dot-green { background: #0f0; }
+    .dot-yellow { background: #ff0; }
+    .dot-red { background: #f00; }
+    .dashboard { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 20px; padding: 20px; max-width: 1400px; margin: 0 auto; }
+    .card { background: #1a1a2e; border-radius: 12px; border: 1px solid #333; overflow: hidden; }
+    .card-header { background: #16213e; padding: 15px; font-weight: 600; font-size: 1.1rem; display: flex; align-items: center; gap: 8px; }
+    .card-body { padding: 15px; }
+    .weather-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .weather-item { background: #0f0f23; padding: 10px; border-radius: 8px; text-align: center; }
+    .weather-item .city { font-size: 0.8rem; color: #888; }
+    .weather-item .temp { font-size: 1.5rem; font-weight: 700; color: #00d4ff; }
+    .weather-item .desc { font-size: 0.75rem; color: #aaa; }
+    .sat-img { width: 100%; border-radius: 8px; cursor: pointer; }
+    .sat-img:hover { opacity: 0.8; }
+    .aqi-bar { height: 6px; border-radius: 3px; margin: 5px 0; }
+    .aqi-good { background: #00e400; }
+    .aqi-moderate { background: #ffff00; }
+    .aqi-unhealthy-sg { background: #ff7e00; }
+    .aqi-unhealthy { background: #ff0000; }
+    .aqi-very-unhealthy { background: #8f3f97; }
+    .aqi-hazardous { background: #7e0023; }
+    .fire-list { max-height: 300px; overflow-y: auto; }
+    .fire-item { padding: 8px; border-bottom: 1px solid #222; font-size: 0.85rem; }
+    .fire-item .location { color: #ff6b6b; font-weight: 600; }
+    .fire-item .meta { color: #888; font-size: 0.75rem; }
+    .disaster-list { max-height: 300px; overflow-y: auto; }
+    .disaster-item { padding: 8px; border-bottom: 1px solid #222; }
+    .disaster-item .title { color: #ffd93d; font-weight: 600; font-size: 0.9rem; }
+    .disaster-item .category { color: #888; font-size: 0.75rem; }
+    .disaster-item .date { color: #666; font-size: 0.7rem; }
+    .loading { text-align: center; padding: 40px; color: #666; }
+    .error { color: #ff6b6b; font-size: 0.85rem; padding: 10px; background: #2a1a1a; border-radius: 6px; margin: 5px 0; }
+    .refresh-btn { background: #16213e; color: #00d4ff; border: 1px solid #00d4ff; padding: 8px 16px; border-radius: 6px; cursor: pointer; font-size: 0.85rem; }
+    .refresh-btn:hover { background: #00d4ff; color: #0a0a1a; }
+    .full-width { grid-column: 1 / -1; }
+    iframe { width: 100%; height: 500px; border: none; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>US Weather Map</h1>
+    <p>Real-Time Weather, Satellite, Air Quality, Fire & Disaster Data</p>
+  </div>
+
+  <div class="status-bar">
+    <div class="status"><span class="dot dot-green"></span> Weather: <span id="weather-status">Loading...</span></div>
+    <div class="status"><span class="dot dot-yellow"></span> Satellite: <span id="sat-status">Loading...</span></div>
+    <div class="status"><span class="dot dot-green"></span> Air Quality: <span id="aq-status">Loading...</span></div>
+    <div class="status"><span class="dot dot-green"></span> Fires: <span id="fire-status">Loading...</span></div>
+    <div class="status"><span class="dot dot-green"></span> Disasters: <span id="disaster-status">Loading...</span></div>
+    <button class="refresh-btn" onclick="refreshAll()">Refresh All</button>
+  </div>
+
+  <div class="dashboard">
+    <!-- Weather Card -->
+    <div class="card">
+      <div class="card-header">Current Weather (Open-Meteo)</div>
+      <div class="card-body">
+        <div id="weather-content" class="weather-grid"><div class="loading">Loading weather data...</div></div>
+      </div>
+    </div>
+
+    <!-- Satellite Card -->
+    <div class="card">
+      <div class="card-header">GOES-16 Satellite (CONUS)</div>
+      <div class="card-body">
+        <div id="satellite-content"><div class="loading">Loading satellite imagery...</div></div>
+      </div>
+    </div>
+
+    <!-- Air Quality Card -->
+    <div class="card">
+      <div class="card-header">Air Quality Index</div>
+      <div class="card-body">
+        <div id="aq-content"><div class="loading">Loading AQI data...</div></div>
+      </div>
+    </div>
+
+    <!-- Fire Card -->
+    <div class="card">
+      <div class="card-header">Active Fires (NASA FIRMS)</div>
+      <div class="card-body">
+        <div id="fire-content"><div class="loading">Loading fire data...</div></div>
+      </div>
+    </div>
+
+    <!-- Disaster Card -->
+    <div class="card">
+      <div class="card-header">Natural Disasters (NASA EONET)</div>
+      <div class="card-body">
+        <div id="disaster-content"><div class="loading">Loading disaster events...</div></div>
+      </div>
+    </div>
+
+    <!-- Full Satellite Viewer -->
+    <div class="card full-width">
+      <div class="card-header">GOES-16 Full Viewer</div>
+      <div class="card-body">
+        <iframe id="sat-viewer" src="https://www.star.nesdis.noaa.gov/goes/abi/sector.php?satellite=goes16&sector=conus&band=GEOCOLOR"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script type="module">
+    import { DataLoader } from './js/data-loader.js';
+
+    // API keys from environment or config (set in localStorage or URL params)
+    const config = {
+      airnowKey: localStorage.getItem('AIRNOW_API_KEY') || '',
+      aqicnToken: localStorage.getItem('AQICN_TOKEN') || '',
+      openweatherKey: localStorage.getItem('OPENWEATHER_KEY') || '',
+      firmsMapKey: localStorage.getItem('FIRMS_MAP_KEY') || '',
+    };
+
+    const loader = new DataLoader(config);
+    const WMO_CODES = {0:'Clear',1:'Mainly clear',2:'Partly cloudy',3:'Overcast',45:'Fog',48:'Rime fog',51:'Light drizzle',53:'Moderate drizzle',55:'Dense drizzle',61:'Slight rain',63:'Moderate rain',65:'Heavy rain',71:'Slight snow',73:'Moderate snow',75:'Heavy snow',80:'Slight showers',81:'Moderate showers',82:'Violent showers',95:'Thunderstorm',96:'Thunderstorm w/ hail',99:'Thunderstorm w/ heavy hail'};
+
+    function getWmoDesc(code) { return WMO_CODES[code] || 'Unknown'; }
+
+    function renderWeather(data) {
+      const el = document.getElementById('weather-content');
+      if (!data || !data.cities) { el.innerHTML = '<div class="error">No weather data available</div>'; return; }
+      let html = '';
+      data.cities.forEach(item => {
+        if (item.error) return;
+        const c = item.data.current;
+        html += '<div class="weather-item"><div class="city">' + item.city + '</div><div class="temp">' + Math.round(c.temperature_2m) + 'F</div><div class="desc">' + getWmoDesc(c.weather_code) + '</div></div>';
+      });
+      el.innerHTML = html || '<div class="error">No city data available</div>';
+      document.getElementById('weather-status').textContent = data.cities.length + ' cities';
+    }
+
+    function renderSatellite(data) {
+      const el = document.getElementById('satellite-content');
+      if (!data || !data.staticImages) { el.innerHTML = '<div class="error">No satellite data</div>'; return; }
+      const url = data.staticImages.goes16.conus.geocolor;
+      el.innerHTML = '<img class="sat-img" src="' + url + '" alt="GOES-16 CONUS GeoColor" onerror="this.parentElement.innerHTML='<div class=\'error\\'>Image unavailable</div>'" />';
+      document.getElementById('sat-status').textContent = 'GOES-16/18/19';
+    }
+
+    function renderAirQuality(data) {
+      const el = document.getElementById('aq-content');
+      if (!data) { el.innerHTML = '<div class="error">No AQI data (set API keys)</div>'; return; }
+      let html = '';
+      if (data.openweather) {
+        data.openweather.forEach(item => {
+          if (item.error || !item.data) return;
+          const aqi = item.data.list[0].main.aqi;
+          const labels = {1:'Good',2:'Fair',3:'Moderate',4:'Poor',5:'Very Poor'};
+          const colors = {1:'aqi-good',2:'aqi-moderate',3:'aqi-unhealthy-sg',4:'aqi-unhealthy',5:'aqi-very-unhealthy'};
+          html += '<div style="padding:5px 0"><strong>' + item.city + ':</strong> <span class="' + colors[aqi] + '" style="color:#fff;padding:2px 8px;border-radius:4px;background:' + (aqi<=2?'#00e400':aqi===3?'#ff7e00':'#ff0000') + '">' + labels[aqi] + '</span></div>';
+        });
+      }
+      if (!html) html = '<div style="color:#888">Set AQICN or OpenWeather API keys in localStorage to see AQI data.</div>';
+      el.innerHTML = html;
+      document.getElementById('aq-status').textContent = data.openweather ? data.openweather.length + ' cities' : 'No key';
+    }
+
+    function renderFires(data) {
+      const el = document.getElementById('fire-content');
+      if (!data || !data.fires || data.fires.length === 0) {
+        el.innerHTML = '<div style="color:#888">No active fires detected or FIRMS key not set.</div>';
+        document.getElementById('fire-status').textContent = '0 fires';
+        return;
+      }
+      let html = '<div class="fire-list">';
+      data.fires.slice(0, 50).forEach(f => {
+        html += '<div class="fire-item"><div class="location">' + (f.latitude || '') + ', ' + (f.longitude || '') + '</div><div class="meta">Confidence: ' + (f.confidence || 'N/A') + ' | FRP: ' + (f.frp || 'N/A') + ' MW | ' + (f.acq_date || '') + ' ' + (f.acq_time || '') + '</div></div>';
+      });
+      html += '</div>';
+      el.innerHTML = html;
+      document.getElementById('fire-status').textContent = data.count + ' fires';
+    }
+
+    function renderDisasters(data) {
+      const el = document.getElementById('disaster-content');
+      if (!data || !data.all || data.all.length === 0) {
+        el.innerHTML = '<div style="color:#888">No active disaster events in US.</div>';
+        document.getElementById('disaster-status').textContent = '0 events';
+        return;
+      }
+      let html = '<div class="disaster-list">';
+      data.all.slice(0, 30).forEach(ev => {
+        const cat = ev.categories ? ev.categories.map(c => c.title).join(', ') : '';
+        const date = ev.geometry ? ev.geometry[ev.geometry.length-1].date : '';
+        html += '<div class="disaster-item"><div class="title">' + ev.title + '</div><div class="category">' + cat + '</div><div class="date">' + new Date(date).toLocaleDateString() + '</div></div>';
+      });
+      html += '</div>';
+      el.innerHTML = html;
+      document.getElementById('disaster-status').textContent = data.all.length + ' events';
+    }
+
+    async function refreshAll() {
+      document.getElementById('weather-status').textContent = 'Loading...';
+      document.getElementById('sat-status').textContent = 'Loading...';
+      try {
+        const allData = await loader.loadAll();
+        renderWeather(allData.weather);
+        renderSatellite(allData.satellite);
+        renderAirQuality(allData.airQuality);
+        renderFires(allData.fires);
+        renderDisasters(allData.disasters);
+      } catch (err) {
+        console.error('Data load error:', err);
+      }
+    }
+
+    // Initial load
+    refreshAll();
+
+    // Auto-refresh every 5 minutes
+    setInterval(refreshAll, 5 * 60 * 1000);
+
+    // Expose for button click
+    window.refreshAll = refreshAll;
+  </script>
+</body>
+</html>
