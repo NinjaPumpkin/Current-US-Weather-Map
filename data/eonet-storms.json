@@ -3,5 +3,39 @@
 	"description": "Related to the atmospheric aspect of storms (hurricanes, cyclones, tornadoes, etc.). Results of storms may be included under floods, landslides, etc.",
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
-	]
+		{
+			"id": "EONET_20279",
+			"title": "Tropical Storm Jangmi",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_20279",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/wp0626.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-05-28T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 135.9, 13.1 ]
+							}
+
+						
+			]
+		}
+
+		]
 }
