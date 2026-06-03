@@ -4,6 +4,40 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
 		{
+			"id": "EONET_20299",
+			"title": "Tropical Storm Amanda",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_20299",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/ep0126.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-03T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -127.9, 10.4 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_20279",
 			"title": "Typhoon Jangmi",
             "description": null,
