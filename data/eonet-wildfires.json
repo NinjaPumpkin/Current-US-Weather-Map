@@ -106,6 +106,40 @@
 		},
 
 			{
+			"id": "EONET_20301",
+			"title": "Bradshaw Wildfire, Powder River, Montana",
+            "description": "35 Miles SW from Broadus, MT",
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_20301",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/083f5cbb-4d42-4371-acfc-c39bc4e2a545"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 2689.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-05-26T23:30:00Z",
+					"type": "Point", 
+							"coordinates": [ -105.96236, 45.0612 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_20254",
 			"title": "Black Ridge Wildfire, Lincoln, Idaho",
             "description": null,
@@ -1663,40 +1697,6 @@
 					"date": "2026-05-15T17:31:00Z",
 					"type": "Point", 
 							"coordinates": [ -99.82727, 37.32525 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_20150",
-			"title": "Santa Rosa Island Wildfire, Santa Barbara, California",
-            "description": "33 Miles SW from Santa Barbara, CA",
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_20150",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/c0ca08f2-e210-4fdf-a312-420a581ece3a"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 14600.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-05-15T12:25:00Z",
-					"type": "Point", 
-							"coordinates": [ -120.086061, 33.917233 ]
 							}
 
 						

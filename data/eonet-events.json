@@ -106,6 +106,40 @@
 		},
 
 			{
+			"id": "EONET_20301",
+			"title": "Bradshaw Wildfire, Powder River, Montana",
+            "description": "35 Miles SW from Broadus, MT",
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_20301",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/083f5cbb-4d42-4371-acfc-c39bc4e2a545"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 2689.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-05-26T23:30:00Z",
+					"type": "Point", 
+							"coordinates": [ -105.96236, 45.0612 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_20254",
 			"title": "Black Ridge Wildfire, Lincoln, Idaho",
             "description": null,
@@ -3363,40 +3397,6 @@
 					"date": "2026-04-26T16:37:00Z",
 					"type": "Point", 
 							"coordinates": [ -98.49615, 38.12723 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_19913",
-			"title": "Tucker Wildfire, Hooker, Nebraska",
-            "description": null,
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_19913",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/275d0bba-4a8f-49c1-abee-e1144049a864"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 1100.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-04-26T15:43:00Z",
-					"type": "Point", 
-							"coordinates": [ -101.2498, 41.8008 ]
 							}
 
 						
