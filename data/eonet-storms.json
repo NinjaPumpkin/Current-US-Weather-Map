@@ -1,1 +1,395 @@
-{"events":[]}
+{
+	"title": "EONET Events: Severe Storms",
+	"description": "Related to the atmospheric aspect of storms (hurricanes, cyclones, tornadoes, etc.). Results of storms may be included under floods, landslides, etc.",
+	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
+	"events": [
+		{
+			"id": "EONET_20299",
+			"title": "Tropical Storm Amanda",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_20299",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/ep0126.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-03T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -127.9, 10.4 ]
+							},
+
+							{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-03T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -128.6, 10.5 ]
+							},
+
+							{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-04T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -128.9, 11.2 ]
+							},
+
+							{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-04T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -129.4, 11.9 ]
+							},
+
+							{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-04T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -130.2, 12.3 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-04T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -130.8, 12.6 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-05T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -131.7, 13.2 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-05T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -132.4, 13.4 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-05T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -133.4, 13.3 ]
+							},
+
+							{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-05T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -133.8, 13.2 ]
+							},
+
+							{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-06T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -134.2, 13 ]
+							},
+
+							{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-06T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -134.6, 12.8 ]
+							},
+
+							{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-06T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -134.7, 12.6 ]
+							},
+
+							{
+							"magnitudeValue": 30.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-06T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -134.6, 12.4 ]
+							},
+
+							{
+							"magnitudeValue": 30.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-07T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -134.8, 12.2 ]
+							},
+
+							{
+							"magnitudeValue": 30.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-07T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -135, 11.9 ]
+							},
+
+							{
+							"magnitudeValue": 30.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-07T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -135.2, 11.6 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_20279",
+			"title": "Typhoon Jangmi",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_20279",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/wp0626.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-05-28T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 135.9, 13.1 ]
+							},
+
+							{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-05-28T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 135.4, 13.9 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-05-28T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 134.5, 14.6 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-05-29T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 133.7, 15.4 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-05-29T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 132.8, 15.9 ]
+							},
+
+							{
+							"magnitudeValue": 45.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-05-29T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 131.7, 16.5 ]
+							},
+
+							{
+							"magnitudeValue": 50.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-05-29T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 130.8, 16.7 ]
+							},
+
+							{
+							"magnitudeValue": 55.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-05-30T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 130.1, 17.5 ]
+							},
+
+							{
+							"magnitudeValue": 65.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-05-30T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 129.6, 18.3 ]
+							},
+
+							{
+							"magnitudeValue": 65.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-05-30T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 129, 19.3 ]
+							},
+
+							{
+							"magnitudeValue": 65.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-05-30T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 128.5, 20.1 ]
+							},
+
+							{
+							"magnitudeValue": 70.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-05-31T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 128.1, 20.9 ]
+							},
+
+							{
+							"magnitudeValue": 70.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-05-31T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 127.8, 21.8 ]
+							},
+
+							{
+							"magnitudeValue": 75.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-05-31T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 127.7, 22.8 ]
+							},
+
+							{
+							"magnitudeValue": 70.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-05-31T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 127.4, 23.6 ]
+							},
+
+							{
+							"magnitudeValue": 65.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-01T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 127.3, 24.5 ]
+							},
+
+							{
+							"magnitudeValue": 60.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-01T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 127.4, 25.6 ]
+							},
+
+							{
+							"magnitudeValue": 55.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-01T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 127.5, 26.7 ]
+							},
+
+							{
+							"magnitudeValue": 55.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-01T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 127.3, 27.9 ]
+							},
+
+							{
+							"magnitudeValue": 50.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-02T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 128.5, 29.1 ]
+							},
+
+							{
+							"magnitudeValue": 50.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-02T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 130.7, 30.7 ]
+							},
+
+							{
+							"magnitudeValue": 50.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-02T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 133.1, 32.2 ]
+							},
+
+							{
+							"magnitudeValue": 50.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-02T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 135, 33.3 ]
+							},
+
+							{
+							"magnitudeValue": 50.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-03T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 137.8, 34.2 ]
+							},
+
+							{
+							"magnitudeValue": 50.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-03T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 141.4, 34.9 ]
+							}
+
+						
+			]
+		}
+
+		]
+}
