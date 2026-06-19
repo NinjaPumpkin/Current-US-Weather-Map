@@ -1,7 +1,1 @@
-{
-	"title": "EONET Events: Severe Storms",
-	"description": "Related to the atmospheric aspect of storms (hurricanes, cyclones, tornadoes, etc.). Results of storms may be included under floods, landslides, etc.",
-	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
-	"events": [
-	]
-}
+{"events":[]}
