@@ -5,7 +5,7 @@
 	"events": [
 		{
 			"id": "EONET_20606",
-			"title": "Tropical Storm Mekkhala",
+			"title": "Typhoon Mekkhala",
             "description": null,
 			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_20606",
 			"closed": null,
@@ -79,6 +79,14 @@
 					"date": "2026-06-21T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 133, 15.4 ]
+							},
+
+							{
+							"magnitudeValue": 65.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-21T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 131.9, 16.1 ]
 							}
 
 						
