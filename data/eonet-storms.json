@@ -4,6 +4,40 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
 		{
+			"id": "EONET_20671",
+			"title": "Tropical Storm Higos",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_20671",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/wp0826.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-23T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 145.7, 14.7 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_20606",
 			"title": "Typhoon Mekkhala",
             "description": null,
@@ -151,6 +185,14 @@
 					"date": "2026-06-23T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 124.8, 19.1 ]
+							},
+
+							{
+							"magnitudeValue": 100.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-06-23T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 124.7, 19.6 ]
 							}
 
 						
