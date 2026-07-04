@@ -87,7 +87,7 @@
 
 			{
 			"id": "EONET_20877",
-			"title": "Typhoon Bavi",
+			"title": "Super Typhoon Bavi",
             "description": null,
 			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_20877",
 			"closed": null,
@@ -177,6 +177,14 @@
 					"date": "2026-07-03T12:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 153.1, 12.8 ]
+							},
+
+							{
+							"magnitudeValue": 140.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-03T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 152.2, 12.7 ]
 							}
 
 						
