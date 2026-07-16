@@ -174,6 +174,40 @@
 		},
 
 			{
+			"id": "EONET_21395",
+			"title": "Wildfire Charger 2, Collier, Florida",
+            "description": "16 Miles NE from Ochopee, FL",
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21395",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-FLBCP-002227"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 974.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-07-15T11:57:00Z",
+					"type": "Point", 
+							"coordinates": [ -81.0615, 25.973667 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_21387",
 			"title": "Wildfire BUCKET SHOP (53)~, Hillsborough, Florida",
             "description": "21 Miles NE from BARTOW, FL",
@@ -3363,40 +3397,6 @@
 					"date": "2026-06-19T20:51:00Z",
 					"type": "Point", 
 							"coordinates": [ -111.787421, 34.967212 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_21109",
-			"title": "Wildfire STAR, Kern, California",
-            "description": "16 Miles E from BAKERSFIELD, CA",
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21109",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-CAKRN-025235"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 577.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-06-19T19:43:00Z",
-					"type": "Point", 
-							"coordinates": [ -118.7477778, 35.2908333 ]
 							}
 
 						
