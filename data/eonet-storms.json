@@ -4,6 +4,56 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
 		{
+			"id": "EONET_21399",
+			"title": "Tropical Storm Fausto",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21399",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/ep0626.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-19T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -112.1, 12.2 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-20T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -113.6, 12.5 ]
+							},
+
+							{
+							"magnitudeValue": 45.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-20T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -115.2, 12.7 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_21373",
 			"title": "Tropical Storm Elida",
             "description": null,
@@ -188,6 +238,14 @@
 					"date": "2026-07-20T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -126.5, 23.5 ]
+							},
+
+							{
+							"magnitudeValue": 45.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-20T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -127, 24.6 ]
 							}
 
 						
