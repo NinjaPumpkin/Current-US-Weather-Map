@@ -4,6 +4,45 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/events",
 	"events": [
 		{
+			"id": "EONET_21437",
+			"title": "Tropical Storm Bertha",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21437",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/al0226.tcw"
+				},
+
+							{
+					"id": "NOAA_NHC",
+					"url": "https://www.nhc.noaa.gov/archive/2026/BERTHA.shtml"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-21T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -86, 28.5 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_21403",
 			"title": "Wildfire Big Gulch, Moffat, Colorado",
             "description": null,
@@ -3363,40 +3402,6 @@
 					"date": "2026-06-28T16:50:00Z",
 					"type": "Point", 
 							"coordinates": [ -82.3005556, 27.15 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_21015",
-			"title": "Wildfire Gold Mountain, Ouray, Colorado",
-            "description": "2 Miles N from Ouray, CO",
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21015",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-COGMF-000099"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 29287.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-06-27T19:53:00Z",
-					"type": "Point", 
-							"coordinates": [ -107.682124, 38.051567 ]
 							}
 
 						

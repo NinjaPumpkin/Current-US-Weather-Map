@@ -4,6 +4,45 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
 		{
+			"id": "EONET_21437",
+			"title": "Tropical Storm Bertha",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21437",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/al0226.tcw"
+				},
+
+							{
+					"id": "NOAA_NHC",
+					"url": "https://www.nhc.noaa.gov/archive/2026/BERTHA.shtml"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-21T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -86, 28.5 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_21399",
 			"title": "Hurricane Fausto",
             "description": null,
@@ -71,6 +110,14 @@
 					"date": "2026-07-21T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -117, 14.4 ]
+							},
+
+							{
+							"magnitudeValue": 70.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-21T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -117.6, 15.1 ]
 							}
 
 						
