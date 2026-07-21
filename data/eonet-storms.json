@@ -5,7 +5,7 @@
 	"events": [
 		{
 			"id": "EONET_21399",
-			"title": "Tropical Storm Fausto",
+			"title": "Hurricane Fausto",
             "description": null,
 			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21399",
 			"closed": null,
@@ -63,6 +63,14 @@
 					"date": "2026-07-20T18:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -116.6, 14 ]
+							},
+
+							{
+							"magnitudeValue": 65.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-21T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -117, 14.4 ]
 							}
 
 						
