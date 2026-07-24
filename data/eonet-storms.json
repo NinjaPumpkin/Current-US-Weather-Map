@@ -4,6 +4,64 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
 		{
+			"id": "EONET_21600",
+			"title": "Tropical Storm Noul",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21600",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/wp1126.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-23T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 125, 18.1 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-24T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 123.6, 18.4 ]
+							},
+
+							{
+							"magnitudeValue": 50.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-24T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 121.8, 18.9 ]
+							},
+
+							{
+							"magnitudeValue": 60.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-24T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 120.4, 19.7 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_21437",
 			"title": "Tropical Storm Bertha",
             "description": null,
@@ -116,6 +174,30 @@
 					"date": "2026-07-23T09:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -92.2, 29 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-23T15:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -93.2, 29.6 ]
+							},
+
+							{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-23T21:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -94.7, 29.8 ]
+							},
+
+							{
+							"magnitudeValue": 30.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-24T03:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -96, 30 ]
 							}
 
 						
@@ -294,6 +376,14 @@
 					"date": "2026-07-24T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -129.2, 18.5 ]
+							},
+
+							{
+							"magnitudeValue": 90.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-24T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -130.6, 18.5 ]
 							}
 
 						
