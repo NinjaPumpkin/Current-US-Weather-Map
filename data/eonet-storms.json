@@ -5,7 +5,7 @@
 	"events": [
 		{
 			"id": "EONET_21600",
-			"title": "Tropical Storm Noul",
+			"title": "Typhoon Noul",
             "description": null,
 			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21600",
 			"closed": null,
@@ -55,6 +55,14 @@
 					"date": "2026-07-24T12:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 120.4, 19.7 ]
+							},
+
+							{
+							"magnitudeValue": 65.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-24T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 119.3, 20 ]
 							}
 
 						
@@ -384,6 +392,14 @@
 					"date": "2026-07-24T12:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -130.6, 18.5 ]
+							},
+
+							{
+							"magnitudeValue": 90.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-24T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -132, 18.6 ]
 							}
 
 						
