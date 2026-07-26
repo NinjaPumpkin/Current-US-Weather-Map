@@ -4,6 +4,96 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
 		{
+			"id": "EONET_21712",
+			"title": "Hurricane Genevieve",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21712",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/ep0726.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-24T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -101.2, 8.9 ]
+							},
+
+							{
+							"magnitudeValue": 45.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-25T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -102.1, 9.3 ]
+							},
+
+							{
+							"magnitudeValue": 45.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-25T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -102.9, 9.9 ]
+							},
+
+							{
+							"magnitudeValue": 50.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-25T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -103.9, 10.5 ]
+							},
+
+							{
+							"magnitudeValue": 55.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-25T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -105, 11.1 ]
+							},
+
+							{
+							"magnitudeValue": 65.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-26T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -106.1, 11.8 ]
+							},
+
+							{
+							"magnitudeValue": 80.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-26T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -107.6, 12.6 ]
+							},
+
+							{
+							"magnitudeValue": 100.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-26T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -108.8, 13.2 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_21600",
 			"title": "Typhoon Noul",
             "description": null,
@@ -480,6 +570,14 @@
 					"date": "2026-07-26T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -139.2, 19.6 ]
+							},
+
+							{
+							"magnitudeValue": 75.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-26T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -140.5, 19.8 ]
 							}
 
 						
