@@ -4,6 +4,40 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
 		{
+			"id": "EONET_21776",
+			"title": "Tropical Storm Dolphin",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21776",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/wp1226.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-27T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 176.7, 13.4 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_21712",
 			"title": "Hurricane Genevieve",
             "description": null,
@@ -103,6 +137,14 @@
 					"date": "2026-07-27T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -110.8, 14.4 ]
+							},
+
+							{
+							"magnitudeValue": 140.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-27T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -111.7, 15.1 ]
 							}
 
 						
@@ -610,6 +652,14 @@
 					"date": "2026-07-27T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -143, 20 ]
+							},
+
+							{
+							"magnitudeValue": 75.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-27T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -144.2, 20.2 ]
 							}
 
 						
