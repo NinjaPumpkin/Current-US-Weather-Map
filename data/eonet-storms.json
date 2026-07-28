@@ -5,7 +5,7 @@
 	"events": [
 		{
 			"id": "EONET_21776",
-			"title": "Tropical Storm Dolphin",
+			"title": "Typhoon Dolphin",
             "description": null,
 			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21776",
 			"closed": null,
@@ -55,6 +55,14 @@
 					"date": "2026-07-28T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 172.8, 13 ]
+							},
+
+							{
+							"magnitudeValue": 75.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-28T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 171.7, 13.3 ]
 							}
 
 						
@@ -193,6 +201,14 @@
 					"date": "2026-07-28T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -114.3, 16.9 ]
+							},
+
+							{
+							"magnitudeValue": 120.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-28T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -115, 17.3 ]
 							}
 
 						
@@ -732,6 +748,14 @@
 					"date": "2026-07-28T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -148.3, 21.5 ]
+							},
+
+							{
+							"magnitudeValue": 55.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-28T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -149.7, 21.8 ]
 							}
 
 						
