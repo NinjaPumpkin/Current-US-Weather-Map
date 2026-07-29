@@ -5,7 +5,7 @@
 	"events": [
 		{
 			"id": "EONET_21776",
-			"title": "Typhoon Dolphin",
+			"title": "Super Typhoon Dolphin",
             "description": null,
 			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21776",
 			"closed": null,
@@ -95,6 +95,14 @@
 					"date": "2026-07-29T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 168.4, 14.5 ]
+							},
+
+							{
+							"magnitudeValue": 130.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-29T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 167.7, 15.2 ]
 							}
 
 						
@@ -273,6 +281,14 @@
 					"date": "2026-07-29T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -118, 18.3 ]
+							},
+
+							{
+							"magnitudeValue": 100.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-29T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -119.2, 18.8 ]
 							}
 
 						
@@ -709,6 +725,14 @@
 					"date": "2026-07-29T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -153.9, 23.2 ]
+							},
+
+							{
+							"magnitudeValue": 30.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-29T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -155.6, 23.8 ]
 							}
 
 						
