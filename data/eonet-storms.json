@@ -151,6 +151,14 @@
 					"date": "2026-07-31T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 161.9, 18.3 ]
+							},
+
+							{
+							"magnitudeValue": 140.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-31T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 161, 18.6 ]
 							}
 
 						
@@ -385,6 +393,14 @@
 					"date": "2026-07-31T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -125.5, 21.1 ]
+							},
+
+							{
+							"magnitudeValue": 55.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-07-31T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -126.6, 21.5 ]
 							}
 
 						
