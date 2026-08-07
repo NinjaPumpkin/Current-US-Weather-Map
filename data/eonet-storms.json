@@ -4,6 +4,40 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
 		{
+			"id": "EONET_22306",
+			"title": "Tropical Cyclone Chan-Hom",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22306",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/wp1426.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-05T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 165.3, 25 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_21776",
 			"title": "Super Typhoon Dolphin",
             "description": null,
@@ -383,6 +417,14 @@
 					"date": "2026-08-07T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 128.1, 26.7 ]
+							},
+
+							{
+							"magnitudeValue": 90.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-07T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 127.2, 27.2 ]
 							}
 
 						
