@@ -151,6 +151,48 @@
 					"date": "2026-08-09T12:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 150.7, 32.3 ]
+							},
+
+							{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-09T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 150.2, 33.2 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_22385",
+			"title": "Tropical Storm Peilou",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22385",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/wp1326.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-05T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 118.8, 17.5 ]
 							}
 
 						
