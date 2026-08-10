@@ -4,6 +4,40 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
 		{
+			"id": "EONET_22386",
+			"title": "Tropical Storm 15W",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22386",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/wp1526.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-10T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 160.7, 27.1 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_22306",
 			"title": "Tropical Cyclone Chan-Hom",
             "description": null,
@@ -167,6 +201,14 @@
 					"date": "2026-08-10T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 149.7, 33.7 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-10T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 148.8, 34.8 ]
 							}
 
 						
@@ -361,6 +403,14 @@
 					"date": "2026-08-10T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 148.3, 20.5 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-10T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 151, 21.1 ]
 							}
 
 						
