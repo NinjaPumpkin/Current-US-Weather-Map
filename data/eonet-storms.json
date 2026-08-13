@@ -4,6 +4,113 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
 		{
+			"id": "EONET_22562",
+			"title": "Tropical Storm Hernan",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22562",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/ep0826.tcw"
+				},
+
+							{
+					"id": "NOAA_NHC",
+					"url": "https://www.nhc.noaa.gov/archive/2026/HERNAN.shtml"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-13T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -131.8, 18.1 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_22561",
+			"title": "Tropical Storm Nangka",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22561",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/wp1626.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-13T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 148, 26.5 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_22563",
+			"title": "Tropical Storm 01C",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22563",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/cp0126.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-12T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -142.2, 14.7 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_22560",
 			"title": "Tropical Storm Cristobal",
             "description": null,
@@ -605,6 +712,14 @@
 					"date": "2026-08-13T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 166.6, 31.1 ]
+							},
+
+							{
+							"magnitudeValue": 30.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-13T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 168, 32 ]
 							}
 
 						
