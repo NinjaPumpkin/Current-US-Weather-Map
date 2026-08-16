@@ -5,7 +5,7 @@
 	"events": [
 		{
 			"id": "EONET_22562",
-			"title": "Tropical Storm Hernan",
+			"title": "Cyclone Hernan",
             "description": null,
 			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22562",
 			"closed": null,
@@ -336,6 +336,14 @@
 					"date": "2026-08-16T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -155.7, 18.3 ]
+							},
+
+							{
+							"magnitudeValue": 65.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-16T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -156.5, 19.1 ]
 							}
 
 						
@@ -394,64 +402,6 @@
 					"date": "2026-08-13T15:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -36.8, 39.4 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_22386",
-			"title": "Tropical Storm 15W",
-            "description": null,
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22386",
-			"closed": null,
-				"categories": [
-					{
-					"id": "severeStorms",
-					"title": "Severe Storms"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "JTWC",
-					"url": "https://www.metoc.navy.mil/jtwc/products/wp1526.tcw"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 35.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-08-10T06:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 160.7, 27.1 ]
-							},
-
-							{
-							"magnitudeValue": 30.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-08-10T12:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 160.6, 27.5 ]
-							},
-
-							{
-							"magnitudeValue": 25.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-08-10T18:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 160.2, 27.5 ]
-							},
-
-							{
-							"magnitudeValue": 25.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-08-11T00:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 160.8, 28.4 ]
 							}
 
 						
