@@ -4,6 +4,40 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
 		{
+			"id": "EONET_22926",
+			"title": "Tropical Storm Saudel",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22926",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/wp1726.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-19T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 154.2, 8.6 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_22562",
 			"title": "Cyclone Hernan",
             "description": null,
@@ -440,6 +474,14 @@
 					"date": "2026-08-19T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -169.3, 20.7 ]
+							},
+
+							{
+							"magnitudeValue": 110.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-19T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -169.9, 21 ]
 							}
 
 						
