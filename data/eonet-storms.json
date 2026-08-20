@@ -31,6 +31,30 @@
 					"date": "2026-08-19T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 154.2, 8.6 ]
+							},
+
+							{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-19T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 154.2, 8.6 ]
+							},
+
+							{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-19T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 153.7, 9.4 ]
+							},
+
+							{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-19T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 152.8, 10.5 ]
 							}
 
 						
@@ -150,88 +174,6 @@
 					"date": "2026-08-15T18:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -135.4, 15.8 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_22561",
-			"title": "Tropical Storm Nangka",
-            "description": null,
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22561",
-			"closed": null,
-				"categories": [
-					{
-					"id": "severeStorms",
-					"title": "Severe Storms"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "JTWC",
-					"url": "https://www.metoc.navy.mil/jtwc/products/wp1626.tcw"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 35.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-08-13T00:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 148, 26.5 ]
-							},
-
-							{
-							"magnitudeValue": 35.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-08-13T06:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 149.6, 27.5 ]
-							},
-
-							{
-							"magnitudeValue": 35.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-08-13T12:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 151, 28 ]
-							},
-
-							{
-							"magnitudeValue": 35.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-08-13T18:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 152.4, 28.3 ]
-							},
-
-							{
-							"magnitudeValue": 30.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-08-14T00:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 153.4, 28.5 ]
-							},
-
-							{
-							"magnitudeValue": 30.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-08-14T06:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 153.7, 28.4 ]
-							},
-
-							{
-							"magnitudeValue": 25.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-08-14T12:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 154.5, 28.3 ]
 							}
 
 						
@@ -482,6 +424,14 @@
 					"date": "2026-08-19T12:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -169.9, 21 ]
+							},
+
+							{
+							"magnitudeValue": 110.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-19T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -170.7, 21.9 ]
 							}
 
 						
