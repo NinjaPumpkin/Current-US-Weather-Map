@@ -87,125 +87,14 @@
 					"date": "2026-08-20T18:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 149.6, 13.7 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_22562",
-			"title": "Cyclone Hernan",
-            "description": null,
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22562",
-			"closed": null,
-				"categories": [
-					{
-					"id": "severeStorms",
-					"title": "Severe Storms"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "JTWC",
-					"url": "https://www.metoc.navy.mil/jtwc/products/ep0826.tcw"
-				},
-
-							{
-					"id": "NOAA_NHC",
-					"url": "https://www.nhc.noaa.gov/archive/2026/HERNAN.shtml"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 35.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-08-13T06:00:00Z",
-					"type": "Point", 
-							"coordinates": [ -131.8, 18.1 ]
 							},
 
 							{
-							"magnitudeValue": 40.00,
+							"magnitudeValue": 45.00,
 					"magnitudeUnit": "kts",
-					"date": "2026-08-13T12:00:00Z",
+					"date": "2026-08-21T00:00:00Z",
 					"type": "Point", 
-							"coordinates": [ -131.9, 18.1 ]
-							},
-
-							{
-							"magnitudeValue": 40.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-08-13T18:00:00Z",
-					"type": "Point", 
-							"coordinates": [ -132.1, 17.8 ]
-							},
-
-							{
-							"magnitudeValue": 35.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-08-14T00:00:00Z",
-					"type": "Point", 
-							"coordinates": [ -131.9, 17.1 ]
-							},
-
-							{
-							"magnitudeValue": 35.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-08-14T06:00:00Z",
-					"type": "Point", 
-							"coordinates": [ -131.9, 16.5 ]
-							},
-
-							{
-							"magnitudeValue": 35.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-08-14T12:00:00Z",
-					"type": "Point", 
-							"coordinates": [ -132, 15.6 ]
-							},
-
-							{
-							"magnitudeValue": 30.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-08-14T18:00:00Z",
-					"type": "Point", 
-							"coordinates": [ -132, 15.6 ]
-							},
-
-							{
-							"magnitudeValue": 30.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-08-15T00:00:00Z",
-					"type": "Point", 
-							"coordinates": [ -132.1, 16.1 ]
-							},
-
-							{
-							"magnitudeValue": 30.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-08-15T06:00:00Z",
-					"type": "Point", 
-							"coordinates": [ -133.2, 16.3 ]
-							},
-
-							{
-							"magnitudeValue": 30.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-08-15T12:00:00Z",
-					"type": "Point", 
-							"coordinates": [ -134.4, 16.1 ]
-							},
-
-							{
-							"magnitudeValue": 25.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-08-15T18:00:00Z",
-					"type": "Point", 
-							"coordinates": [ -135.4, 15.8 ]
+							"coordinates": [ 149, 14.7 ]
 							}
 
 						
@@ -496,6 +385,14 @@
 					"date": "2026-08-20T18:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -172.3, 24.6 ]
+							},
+
+							{
+							"magnitudeValue": 80.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-21T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -172.4, 25.2 ]
 							}
 
 						
