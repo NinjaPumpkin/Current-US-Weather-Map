@@ -5,7 +5,7 @@
 	"events": [
 		{
 			"id": "EONET_22926",
-			"title": "Tropical Storm Saudel",
+			"title": "Typhoon Saudel",
             "description": null,
 			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22926",
 			"closed": null,
@@ -103,6 +103,14 @@
 					"date": "2026-08-21T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 148.5, 14.9 ]
+							},
+
+							{
+							"magnitudeValue": 70.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-21T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 148.1, 16 ]
 							}
 
 						
@@ -409,6 +417,14 @@
 					"date": "2026-08-21T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -171.9, 26.1 ]
+							},
+
+							{
+							"magnitudeValue": 85.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-21T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -171.3, 27 ]
 							}
 
 						
