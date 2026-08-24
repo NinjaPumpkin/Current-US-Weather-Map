@@ -4,6 +4,108 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
 		{
+			"id": "EONET_23205",
+			"title": "Tropical Storm Iselle",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23205",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/ep0926.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-23T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -111.9, 14.1 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_23206",
+			"title": "Tropical Storm Moke",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23206",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/cp0226.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-21T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -146.7, 13.7 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_23207",
+			"title": "Tropical Storm Narra",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23207",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/wp1826.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-21T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 108.7, 20.6 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_22926",
 			"title": "Typhoon Saudel",
             "description": null,
@@ -191,6 +293,14 @@
 					"date": "2026-08-24T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 136.3, 23.9 ]
+							},
+
+							{
+							"magnitudeValue": 105.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-24T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 134.7, 24.5 ]
 							}
 
 						
@@ -585,6 +695,14 @@
 					"date": "2026-08-24T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -174.6, 32.9 ]
+							},
+
+							{
+							"magnitudeValue": 55.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-08-24T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -174.7, 33.2 ]
 							}
 
 						
