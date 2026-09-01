@@ -167,6 +167,22 @@
 					"date": "2026-09-01T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -126.3, 17.7 ]
+							},
+
+							{
+							"magnitudeValue": 120.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-01T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -127.4, 18 ]
+							},
+
+							{
+							"magnitudeValue": 120.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-01T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -128.5, 18 ]
 							}
 
 						
@@ -175,7 +191,7 @@
 
 			{
 			"id": "EONET_23612",
-			"title": "Tropical Storm Lowell",
+			"title": "Hurricane Lowell",
             "description": null,
 			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23612",
 			"closed": null,
@@ -337,6 +353,22 @@
 					"date": "2026-09-01T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -147, 12.9 ]
+							},
+
+							{
+							"magnitudeValue": 60.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-01T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -148.1, 13 ]
+							},
+
+							{
+							"magnitudeValue": 65.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-01T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -149, 13.4 ]
 							}
 
 						
@@ -1087,6 +1119,14 @@
 					"date": "2026-09-01T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 114.4, 20 ]
+							},
+
+							{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-01T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 115.7, 20.8 ]
 							}
 
 						
