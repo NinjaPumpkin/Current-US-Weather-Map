@@ -4,6 +4,153 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
 		{
+			"id": "EONET_23800",
+			"title": "Tropical Storm Marie",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23800",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/ep1326.tcw"
+				},
+
+							{
+					"id": "NOAA_NHC",
+					"url": "https://www.nhc.noaa.gov/archive/2026/MARIE.shtml"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-01T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -108.1, 14.1 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_23739",
+			"title": "Tropical Storm Edouard",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23739",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "NOAA_NHC",
+					"url": "https://www.nhc.noaa.gov/archive/2026/EDOUARD.shtml"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-01T03:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -91.8, 28.6 ]
+							},
+
+							{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-01T09:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -92.8, 29 ]
+							},
+
+							{
+							"magnitudeValue": 45.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-01T15:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -93.3, 29.4 ]
+							},
+
+							{
+							"magnitudeValue": 45.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-01T21:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -94, 29.945 ]
+							},
+
+							{
+							"magnitudeValue": 30.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-02T03:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -94.6, 30.5 ]
+							},
+
+							{
+							"magnitudeValue": 30.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-02T09:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -95, 30.8 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_23738",
+			"title": "Tropical Storm Krovanh",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23738",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/wp2226.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-01T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 131.5, 22.4 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_23611",
 			"title": "Hurricane Karina",
             "description": null,
@@ -20,6 +167,11 @@
 					{
 					"id": "JTWC",
 					"url": "https://www.metoc.navy.mil/jtwc/products/ep1126.tcw"
+				},
+
+							{
+					"id": "NOAA_NHC",
+					"url": "https://www.nhc.noaa.gov/archive/2026/KARINA.shtml"
 				}
 
 						
@@ -230,6 +382,11 @@
 					{
 					"id": "JTWC",
 					"url": "https://www.metoc.navy.mil/jtwc/products/ep1226.tcw"
+				},
+
+							{
+					"id": "NOAA_NHC",
+					"url": "https://www.nhc.noaa.gov/archive/2026/LOWELL.shtml"
 				}
 
 						
@@ -1222,6 +1379,11 @@
 					{
 					"id": "JTWC",
 					"url": "https://www.metoc.navy.mil/jtwc/products/cp0126.tcw"
+				},
+
+							{
+					"id": "NOAA_NHC",
+					"url": "https://www.nhc.noaa.gov/archive/2026/LALA.shtml"
 				}
 
 						

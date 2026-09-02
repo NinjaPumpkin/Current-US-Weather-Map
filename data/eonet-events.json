@@ -4,6 +4,80 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/events",
 	"events": [
 		{
+			"id": "EONET_23739",
+			"title": "Tropical Storm Edouard",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23739",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "NOAA_NHC",
+					"url": "https://www.nhc.noaa.gov/archive/2026/EDOUARD.shtml"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-01T03:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -91.8, 28.6 ]
+							},
+
+							{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-01T09:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -92.8, 29 ]
+							},
+
+							{
+							"magnitudeValue": 45.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-01T15:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -93.3, 29.4 ]
+							},
+
+							{
+							"magnitudeValue": 45.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-01T21:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -94, 29.945 ]
+							},
+
+							{
+							"magnitudeValue": 30.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-02T03:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -94.6, 30.5 ]
+							},
+
+							{
+							"magnitudeValue": 30.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-02T09:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -95, 30.8 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_23656",
 			"title": "Wildfire Ruggs, Morrow, Oregon",
             "description": null,
@@ -3363,40 +3437,6 @@
 					"date": "2026-08-06T19:19:00Z",
 					"type": "Point", 
 							"coordinates": [ -105.8556, 44.366767 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_22445",
-			"title": "Wildfire COTTONWOOD, Grant, Oregon",
-            "description": "15 Miles SW from LONG CREEK, OR",
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22445",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-OR952S-026181"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 723.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-08-06T18:41:00Z",
-					"type": "Point", 
-							"coordinates": [ -119.380383, 44.628133 ]
 							}
 
 						
