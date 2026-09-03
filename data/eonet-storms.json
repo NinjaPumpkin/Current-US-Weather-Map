@@ -5,7 +5,7 @@
 	"events": [
 		{
 			"id": "EONET_23800",
-			"title": "Tropical Storm Marie",
+			"title": "Hurricane Marie",
             "description": null,
 			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23800",
 			"closed": null,
@@ -84,6 +84,22 @@
 					"date": "2026-09-02T18:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -112, 17.7 ]
+							},
+
+							{
+							"magnitudeValue": 70.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-03T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -112.7, 18.2 ]
+							},
+
+							{
+							"magnitudeValue": 75.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-03T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -113.4, 18.7 ]
 							}
 
 						
@@ -248,6 +264,22 @@
 					"date": "2026-09-02T18:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 130.9, 24.8 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-03T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 130.2, 26.1 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-03T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 129, 27 ]
 							}
 
 						
@@ -479,6 +511,22 @@
 					"date": "2026-09-02T18:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -133.3, 18.8 ]
+							},
+
+							{
+							"magnitudeValue": 115.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-03T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -134.2, 19.2 ]
+							},
+
+							{
+							"magnitudeValue": 105.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-03T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -135.2, 19.5 ]
 							}
 
 						
@@ -710,6 +758,22 @@
 					"date": "2026-09-02T18:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -153.7, 13.3 ]
+							},
+
+							{
+							"magnitudeValue": 135.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-03T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -154.7, 13.3 ]
+							},
+
+							{
+							"magnitudeValue": 130.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-03T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -155.8, 13.3 ]
 							}
 
 						
@@ -1508,6 +1572,14 @@
 					"date": "2026-09-02T18:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 118.4, 23.4 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-03T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 117.4, 23.8 ]
 							}
 
 						
