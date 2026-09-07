@@ -106,6 +106,237 @@
 		},
 
 			{
+			"id": "EONET_23800",
+			"title": "Hurricane Marie",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23800",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/ep1326.tcw"
+				},
+
+							{
+					"id": "NOAA_NHC",
+					"url": "https://www.nhc.noaa.gov/archive/2026/MARIE.shtml"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-01T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -108.1, 14.1 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-01T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -108.5, 14.8 ]
+							},
+
+							{
+							"magnitudeValue": 50.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-01T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -109.2, 15.4 ]
+							},
+
+							{
+							"magnitudeValue": 55.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-02T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -109.9, 15.9 ]
+							},
+
+							{
+							"magnitudeValue": 55.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-02T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -110.6, 16.4 ]
+							},
+
+							{
+							"magnitudeValue": 60.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-02T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -111.3, 16.8 ]
+							},
+
+							{
+							"magnitudeValue": 60.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-02T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -112, 17.7 ]
+							},
+
+							{
+							"magnitudeValue": 70.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-03T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -112.7, 18.2 ]
+							},
+
+							{
+							"magnitudeValue": 75.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-03T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -113.4, 18.7 ]
+							},
+
+							{
+							"magnitudeValue": 80.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-03T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -114.4, 19 ]
+							},
+
+							{
+							"magnitudeValue": 80.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-03T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -115.1, 19.1 ]
+							},
+
+							{
+							"magnitudeValue": 80.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-04T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -115.9, 19.5 ]
+							},
+
+							{
+							"magnitudeValue": 85.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-04T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -116.7, 19.7 ]
+							},
+
+							{
+							"magnitudeValue": 85.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-04T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -117.6, 19.9 ]
+							},
+
+							{
+							"magnitudeValue": 85.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-04T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -118.2, 20.1 ]
+							},
+
+							{
+							"magnitudeValue": 85.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-05T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -118.7, 20.6 ]
+							},
+
+							{
+							"magnitudeValue": 85.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-05T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -119.3, 21.1 ]
+							},
+
+							{
+							"magnitudeValue": 80.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-05T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -120.1, 21.6 ]
+							},
+
+							{
+							"magnitudeValue": 80.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-05T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -120.6, 21.9 ]
+							},
+
+							{
+							"magnitudeValue": 80.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-06T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -121, 22.3 ]
+							},
+
+							{
+							"magnitudeValue": 80.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-06T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -121.7, 22.9 ]
+							},
+
+							{
+							"magnitudeValue": 70.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-06T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -122.3, 23.3 ]
+							},
+
+							{
+							"magnitudeValue": 65.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-06T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -122.7, 23.8 ]
+							},
+
+							{
+							"magnitudeValue": 60.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-07T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -123, 24 ]
+							},
+
+							{
+							"magnitudeValue": 55.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-07T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -123.4, 24.2 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_23739",
 			"title": "Tropical Storm Edouard",
             "description": null,
@@ -3403,40 +3634,6 @@
 					"date": "2026-08-08T14:16:00Z",
 					"type": "Point", 
 							"coordinates": [ -118.4075, 46.5942 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_22425",
-			"title": "Wildfire LITTLE GOOSE, Columbia, Washington",
-            "description": "18 Miles N from DAYTON, WA",
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22425",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-WAWFS-001924"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 8524.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-08-07T21:01:00Z",
-					"type": "Point", 
-							"coordinates": [ -118.09, 46.536 ]
 							}
 
 						
