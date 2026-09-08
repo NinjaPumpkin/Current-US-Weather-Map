@@ -243,7 +243,7 @@
 
 			{
 			"id": "EONET_23800",
-			"title": "Hurricane Marie",
+			"title": "Cyclone Marie",
             "description": null,
 			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23800",
 			"closed": null,
@@ -498,6 +498,14 @@
 					"date": "2026-09-08T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -126.3, 25.2 ]
+							},
+
+							{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-08T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -127.1, 25.5 ]
 							}
 
 						
