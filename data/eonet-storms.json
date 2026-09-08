@@ -236,6 +236,14 @@
 					"date": "2026-09-07T12:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -124.1, 24.5 ]
+							},
+
+							{
+							"magnitudeValue": 50.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-07T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -124.9, 24.6 ]
 							}
 
 						
@@ -552,6 +560,14 @@
 					"date": "2026-09-07T12:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 132.9, 28.2 ]
+							},
+
+							{
+							"magnitudeValue": 30.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-07T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 133, 29.1 ]
 							}
 
 						
@@ -1302,6 +1318,14 @@
 					"date": "2026-09-07T12:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -162.9, 17 ]
+							},
+
+							{
+							"magnitudeValue": 95.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-07T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -162.2, 18 ]
 							}
 
 						
