@@ -513,80 +513,6 @@
 		},
 
 			{
-			"id": "EONET_23739",
-			"title": "Tropical Storm Edouard",
-            "description": null,
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23739",
-			"closed": null,
-				"categories": [
-					{
-					"id": "severeStorms",
-					"title": "Severe Storms"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "NOAA_NHC",
-					"url": "https://www.nhc.noaa.gov/archive/2026/EDOUARD.shtml"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 35.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-01T03:00:00Z",
-					"type": "Point", 
-							"coordinates": [ -91.8, 28.6 ]
-							},
-
-							{
-							"magnitudeValue": 35.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-01T09:00:00Z",
-					"type": "Point", 
-							"coordinates": [ -92.8, 29 ]
-							},
-
-							{
-							"magnitudeValue": 45.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-01T15:00:00Z",
-					"type": "Point", 
-							"coordinates": [ -93.3, 29.4 ]
-							},
-
-							{
-							"magnitudeValue": 45.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-01T21:00:00Z",
-					"type": "Point", 
-							"coordinates": [ -94, 29.945 ]
-							},
-
-							{
-							"magnitudeValue": 30.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-02T03:00:00Z",
-					"type": "Point", 
-							"coordinates": [ -94.6, 30.5 ]
-							},
-
-							{
-							"magnitudeValue": 30.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-02T09:00:00Z",
-					"type": "Point", 
-							"coordinates": [ -95, 30.8 ]
-							}
-
-						
-			]
-		},
-
-			{
 			"id": "EONET_23656",
 			"title": "Wildfire Ruggs, Morrow, Oregon",
             "description": null,
@@ -3674,6 +3600,40 @@
 					"date": "2026-08-08T20:58:00Z",
 					"type": "Point", 
 							"coordinates": [ -117.307978, 46.870892 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_22432",
+			"title": "Wildfire Bug, Lassen, California",
+            "description": "3 Miles S from Hallelujah Junction, CA",
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22432",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-NVCCD-030683"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 15000.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-08-08T18:49:00Z",
+					"type": "Point", 
+							"coordinates": [ -120.038117, 39.727883 ]
 							}
 
 						
