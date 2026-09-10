@@ -4,6 +4,45 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
 		{
+			"id": "EONET_24184",
+			"title": "Tropical Storm Norbert",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24184",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/ep1426.tcw"
+				},
+
+							{
+					"id": "NOAA_NHC",
+					"url": "https://www.nhc.noaa.gov/archive/2026/NORBERT.shtml"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-10T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -117.3, 16.4 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_23800",
 			"title": "Cyclone Marie",
             "description": null,
@@ -587,6 +626,11 @@
 	    				],
     			"sources": [
 					{
+					"id": "EO",
+					"url": "https://science.nasa.gov/earth/earth-observatory/a-trio-of-tropical-cyclones-in-the-pacific/"
+				},
+
+							{
 					"id": "JTWC",
 					"url": "https://www.metoc.navy.mil/jtwc/products/ep1126.tcw"
 				},
@@ -954,6 +998,11 @@
 	    				],
     			"sources": [
 					{
+					"id": "EO",
+					"url": "https://science.nasa.gov/earth/earth-observatory/a-trio-of-tropical-cyclones-in-the-pacific/"
+				},
+
+							{
 					"id": "JTWC",
 					"url": "https://www.metoc.navy.mil/jtwc/products/ep1226.tcw"
 				},
