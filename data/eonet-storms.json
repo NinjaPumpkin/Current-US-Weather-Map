@@ -52,6 +52,22 @@
 					"date": "2026-09-10T18:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -119.9, 16.5 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-11T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -121.3, 16.4 ]
+							},
+
+							{
+							"magnitudeValue": 50.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-11T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -122.7, 16.6 ]
 							}
 
 						
@@ -1001,7 +1017,7 @@
 
 			{
 			"id": "EONET_23612",
-			"title": "Hurricane Lowell",
+			"title": "Cyclone Lowell",
             "description": null,
 			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23612",
 			"closed": null,
@@ -1485,6 +1501,14 @@
 					"date": "2026-09-10T18:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -168.3, 29 ]
+							},
+
+							{
+							"magnitudeValue": 45.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-11T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -169.5, 29 ]
 							}
 
 						
