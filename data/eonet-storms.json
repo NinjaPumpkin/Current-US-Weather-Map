@@ -5,7 +5,7 @@
 	"events": [
 		{
 			"id": "EONET_24184",
-			"title": "Tropical Storm Norbert",
+			"title": "Cyclone Norbert",
             "description": null,
 			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24184",
 			"closed": null,
@@ -196,6 +196,14 @@
 					"date": "2026-09-15T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -141.1, 20.2 ]
+							},
+
+							{
+							"magnitudeValue": 30.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-15T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -142.4, 20.4 ]
 							}
 
 						
