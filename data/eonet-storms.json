@@ -4,6 +4,72 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
 		{
+			"id": "EONET_24317",
+			"title": "Tropical Storm Dujuan",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24317",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/wp2426.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-16T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 149.5, 16.5 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-16T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 149.9, 17.6 ]
+							},
+
+							{
+							"magnitudeValue": 50.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-17T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 150.4, 19 ]
+							},
+
+							{
+							"magnitudeValue": 50.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-17T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 150.3, 21.6 ]
+							},
+
+							{
+							"magnitudeValue": 55.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-17T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 148.6, 22.8 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_24184",
 			"title": "Cyclone Norbert",
             "description": null,
