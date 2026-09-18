@@ -5,7 +5,7 @@
 	"events": [
 		{
 			"id": "EONET_24317",
-			"title": "Tropical Storm Dujuan",
+			"title": "Typhoon Dujuan",
             "description": null,
 			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24317",
 			"closed": null,
@@ -63,6 +63,14 @@
 					"date": "2026-09-17T12:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 148.6, 22.8 ]
+							},
+
+							{
+							"magnitudeValue": 65.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-17T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 146, 25.2 ]
 							}
 
 						
