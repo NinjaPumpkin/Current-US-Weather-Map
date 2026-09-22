@@ -4,6 +4,166 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
 		{
+			"id": "EONET_24721",
+			"title": "Hurricane Polo",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24721",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/ep1726.tcw"
+				},
+
+							{
+					"id": "NOAA_NHC",
+					"url": "https://www.nhc.noaa.gov/archive/2026/POLO.shtml"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-21T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -104.8, 15.1 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_24722",
+			"title": "Tropical Storm Fay",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24722",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "NOAA_NHC",
+					"url": "https://www.nhc.noaa.gov/archive/2026/FAY.shtml"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-20T09:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -33.1, 33.7 ]
+							},
+
+							{
+							"magnitudeValue": 50.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-20T15:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -33, 34.1 ]
+							},
+
+							{
+							"magnitudeValue": 55.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-20T21:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -32.7, 34.4 ]
+							},
+
+							{
+							"magnitudeValue": 60.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-21T03:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -31.9, 34.1 ]
+							},
+
+							{
+							"magnitudeValue": 55.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-21T09:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -32.1, 33.8 ]
+							},
+
+							{
+							"magnitudeValue": 45.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-21T15:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -32, 33.3 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-21T21:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -32.2, 33.1 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_24720",
+			"title": "Tropical Storm Odalys",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24720",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/ep1626.tcw"
+				},
+
+							{
+					"id": "NOAA_NHC",
+					"url": "https://www.nhc.noaa.gov/archive/2026/ODALYS.shtml"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-20T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -124.3, 11.1 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_24317",
 			"title": "Typhoon Dujuan",
             "description": null,
@@ -191,6 +351,14 @@
 					"date": "2026-09-21T12:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 141.8, 34.9 ]
+							},
+
+							{
+							"magnitudeValue": 70.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-21T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 144.1, 36.9 ]
 							}
 
 						
