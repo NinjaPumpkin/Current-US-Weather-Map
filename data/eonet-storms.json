@@ -92,6 +92,22 @@
 					"date": "2026-09-22T18:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -101.5, 14.6 ]
+							},
+
+							{
+							"magnitudeValue": 145.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-23T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -101.4, 14.6 ]
+							},
+
+							{
+							"magnitudeValue": 140.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-23T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -101.3, 14.8 ]
 							}
 
 						
@@ -182,7 +198,7 @@
 
 			{
 			"id": "EONET_24720",
-			"title": "Tropical Storm Odalys",
+			"title": "Hurricane Odalys",
             "description": null,
 			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24720",
 			"closed": null,
@@ -293,6 +309,22 @@
 					"date": "2026-09-22T18:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -130.4, 15 ]
+							},
+
+							{
+							"magnitudeValue": 60.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-23T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -129.4, 15.3 ]
+							},
+
+							{
+							"magnitudeValue": 65.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-23T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -128.7, 15.8 ]
 							}
 
 						
