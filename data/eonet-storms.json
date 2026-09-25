@@ -4,6 +4,48 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
 		{
+			"id": "EONET_24811",
+			"title": "Tropical Storm Gonzalo",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24811",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "NOAA_NHC",
+					"url": "https://www.nhc.noaa.gov/archive/2026/GONZALO.shtml"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-25T03:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -22.1, 13.2 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-25T09:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -22.4, 14.2 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_24786",
 			"title": "Hurricane Nolo",
             "description": null,
@@ -71,6 +113,14 @@
 					"date": "2026-09-25T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -155.8, 15.2 ]
+							},
+
+							{
+							"magnitudeValue": 75.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-25T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -155.6, 15.8 ]
 							}
 
 						
@@ -153,6 +203,14 @@
 					"date": "2026-09-25T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 129.3, 20.7 ]
+							},
+
+							{
+							"magnitudeValue": 50.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-25T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 128.2, 21.4 ]
 							}
 
 						
@@ -418,6 +476,14 @@
 					"date": "2026-09-25T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -107, 17.1 ]
+							},
+
+							{
+							"magnitudeValue": 155.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-25T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -108, 17.1 ]
 							}
 
 						
@@ -556,6 +622,38 @@
 					"date": "2026-09-24T09:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -40.5, 29.8 ]
+							},
+
+							{
+							"magnitudeValue": 45.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-24T15:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -41.2, 29.8 ]
+							},
+
+							{
+							"magnitudeValue": 45.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-24T21:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -41.8, 29.8 ]
+							},
+
+							{
+							"magnitudeValue": 45.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-25T03:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -42.3, 29.8 ]
+							},
+
+							{
+							"magnitudeValue": 45.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-25T09:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -42.8, 29.8 ]
 							}
 
 						
@@ -755,6 +853,14 @@
 					"date": "2026-09-25T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -124.1, 17.3 ]
+							},
+
+							{
+							"magnitudeValue": 115.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-25T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -123.8, 17.7 ]
 							}
 
 						
