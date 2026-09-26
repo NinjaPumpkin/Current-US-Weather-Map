@@ -129,6 +129,22 @@
 					"date": "2026-09-25T18:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -155.4, 16.3 ]
+							},
+
+							{
+							"magnitudeValue": 90.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-26T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -155.4, 16.7 ]
+							},
+
+							{
+							"magnitudeValue": 90.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-26T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -155.2, 16.9 ]
 							}
 
 						
@@ -137,7 +153,7 @@
 
 			{
 			"id": "EONET_24787",
-			"title": "Tropical Storm Surigae",
+			"title": "Typhoon Surigae",
             "description": null,
 			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24787",
 			"closed": null,
@@ -227,6 +243,22 @@
 					"date": "2026-09-25T18:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 127.8, 21.9 ]
+							},
+
+							{
+							"magnitudeValue": 60.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-26T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 127, 22.4 ]
+							},
+
+							{
+							"magnitudeValue": 70.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-26T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 126.8, 22.9 ]
 							}
 
 						
@@ -508,6 +540,22 @@
 					"date": "2026-09-25T18:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -108.8, 17.1 ]
+							},
+
+							{
+							"magnitudeValue": 150.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-26T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -109.7, 17.2 ]
+							},
+
+							{
+							"magnitudeValue": 150.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-26T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -110.5, 17.5 ]
 							}
 
 						
@@ -893,6 +941,22 @@
 					"date": "2026-09-25T18:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -123.6, 18 ]
+							},
+
+							{
+							"magnitudeValue": 110.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-26T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -123.7, 18.6 ]
+							},
+
+							{
+							"magnitudeValue": 105.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-26T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -123.8, 18.8 ]
 							}
 
 						
