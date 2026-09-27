@@ -153,6 +153,22 @@
 					"date": "2026-09-26T12:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -155.3, 16.9 ]
+							},
+
+							{
+							"magnitudeValue": 85.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-26T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -155.7, 16.8 ]
+							},
+
+							{
+							"magnitudeValue": 80.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-27T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -156.1, 16.7 ]
 							}
 
 						
@@ -275,6 +291,22 @@
 					"date": "2026-09-26T12:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 126.9, 23.3 ]
+							},
+
+							{
+							"magnitudeValue": 75.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-26T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 127.2, 24 ]
+							},
+
+							{
+							"magnitudeValue": 90.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-27T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 127.6, 24.6 ]
 							}
 
 						
@@ -580,6 +612,22 @@
 					"date": "2026-09-26T12:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -111.4, 17.7 ]
+							},
+
+							{
+							"magnitudeValue": 125.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-26T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -112.2, 18.3 ]
+							},
+
+							{
+							"magnitudeValue": 110.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-27T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -112.9, 19 ]
 							}
 
 						
@@ -989,6 +1037,22 @@
 					"date": "2026-09-26T12:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -123.7, 19.5 ]
+							},
+
+							{
+							"magnitudeValue": 80.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-26T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -123.6, 20.2 ]
+							},
+
+							{
+							"magnitudeValue": 75.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-27T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -123.6, 20.8 ]
 							}
 
 						
