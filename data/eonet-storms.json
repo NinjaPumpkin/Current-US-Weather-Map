@@ -177,6 +177,14 @@
 					"date": "2026-09-27T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -156.9, 16.6 ]
+							},
+
+							{
+							"magnitudeValue": 85.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-27T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -157.8, 16.2 ]
 							}
 
 						
@@ -323,6 +331,14 @@
 					"date": "2026-09-27T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 128.3, 25.4 ]
+							},
+
+							{
+							"magnitudeValue": 125.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-27T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 129.1, 25.9 ]
 							}
 
 						
@@ -652,6 +668,14 @@
 					"date": "2026-09-27T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -113.4, 19.8 ]
+							},
+
+							{
+							"magnitudeValue": 105.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-27T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -113.7, 20.8 ]
 							}
 
 						
@@ -1085,224 +1109,14 @@
 					"date": "2026-09-27T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -123.5, 21.6 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_24317",
-			"title": "Typhoon Dujuan",
-            "description": null,
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24317",
-			"closed": null,
-				"categories": [
-					{
-					"id": "severeStorms",
-					"title": "Severe Storms"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "JTWC",
-					"url": "https://www.metoc.navy.mil/jtwc/products/wp2426.tcw"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 35.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-16T12:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 149.5, 16.5 ]
-							},
-
-							{
-							"magnitudeValue": 40.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-16T18:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 149.9, 17.6 ]
-							},
-
-							{
-							"magnitudeValue": 50.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-17T00:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 150.4, 19 ]
-							},
-
-							{
-							"magnitudeValue": 50.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-17T06:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 150.3, 21.6 ]
 							},
 
 							{
 							"magnitudeValue": 55.00,
 					"magnitudeUnit": "kts",
-					"date": "2026-09-17T12:00:00Z",
+					"date": "2026-09-27T12:00:00Z",
 					"type": "Point", 
-							"coordinates": [ 148.6, 22.8 ]
-							},
-
-							{
-							"magnitudeValue": 65.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-17T18:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 146, 25.2 ]
-							},
-
-							{
-							"magnitudeValue": 60.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-18T00:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 144.5, 25.1 ]
-							},
-
-							{
-							"magnitudeValue": 60.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-18T06:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 142.9, 25.9 ]
-							},
-
-							{
-							"magnitudeValue": 60.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-18T12:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 141.7, 25.4 ]
-							},
-
-							{
-							"magnitudeValue": 65.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-18T18:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 140.7, 26.2 ]
-							},
-
-							{
-							"magnitudeValue": 65.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-19T00:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 139.7, 26.2 ]
-							},
-
-							{
-							"magnitudeValue": 65.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-19T06:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 139.1, 27 ]
-							},
-
-							{
-							"magnitudeValue": 65.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-19T12:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 138.2, 27.8 ]
-							},
-
-							{
-							"magnitudeValue": 65.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-19T18:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 137.7, 28.5 ]
-							},
-
-							{
-							"magnitudeValue": 60.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-20T00:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 137.5, 28.7 ]
-							},
-
-							{
-							"magnitudeValue": 60.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-20T06:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 137.5, 29.8 ]
-							},
-
-							{
-							"magnitudeValue": 60.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-20T12:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 137.6, 30.4 ]
-							},
-
-							{
-							"magnitudeValue": 60.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-20T18:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 137.9, 31.3 ]
-							},
-
-							{
-							"magnitudeValue": 65.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-21T00:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 138.7, 32.4 ]
-							},
-
-							{
-							"magnitudeValue": 70.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-21T06:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 139.8, 33.7 ]
-							},
-
-							{
-							"magnitudeValue": 70.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-21T12:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 141.8, 34.9 ]
-							},
-
-							{
-							"magnitudeValue": 70.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-21T18:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 144.1, 36.9 ]
-							},
-
-							{
-							"magnitudeValue": 65.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-22T00:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 147.4, 38.1 ]
-							},
-
-							{
-							"magnitudeValue": 60.00,
-					"magnitudeUnit": "kts",
-					"date": "2026-09-22T06:00:00Z",
-					"type": "Point", 
-							"coordinates": [ 150.2, 39 ]
+							"coordinates": [ -123.4, 22.4 ]
 							}
 
 						
