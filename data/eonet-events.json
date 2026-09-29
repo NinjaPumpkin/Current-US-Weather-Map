@@ -475,6 +475,14 @@
 					"date": "2026-09-29T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -112.2, 25.8 ]
+							},
+
+							{
+							"magnitudeValue": 65.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-29T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -111.5, 26.9 ]
 							}
 
 						
