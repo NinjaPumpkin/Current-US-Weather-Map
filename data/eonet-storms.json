@@ -39,7 +39,7 @@
 
 			{
 			"id": "EONET_24875",
-			"title": "Tropical Storm Rachel",
+			"title": "Hurricane Rachel",
             "description": null,
 			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24875",
 			"closed": null,
@@ -142,6 +142,14 @@
 					"date": "2026-09-30T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -106.3, 16.6 ]
+							},
+
+							{
+							"magnitudeValue": 70.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-30T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -106.9, 17.3 ]
 							}
 
 						
@@ -458,6 +466,14 @@
 					"date": "2026-09-30T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -164.2, 21.8 ]
+							},
+
+							{
+							"magnitudeValue": 65.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-30T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -164.2, 22.4 ]
 							}
 
 						
@@ -692,6 +708,14 @@
 					"date": "2026-09-30T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 137.3, 30.2 ]
+							},
+
+							{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-30T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 138.3, 31.2 ]
 							}
 
 						
