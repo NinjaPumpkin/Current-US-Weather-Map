@@ -4,6 +4,40 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
 		{
+			"id": "EONET_24962",
+			"title": "Tropical Storm Choi-wan",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24962",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/wp2626.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-09-30T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 150.8, 16 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_24909",
 			"title": "Tropical Storm Hanna",
             "description": null,
@@ -174,6 +208,14 @@
 					"date": "2026-10-01T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -108.3, 19 ]
+							},
+
+							{
+							"magnitudeValue": 80.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-01T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -109.1, 19.3 ]
 							}
 
 						
@@ -522,6 +564,14 @@
 					"date": "2026-10-01T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -164.7, 21.6 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-01T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -165, 21.7 ]
 							}
 
 						
