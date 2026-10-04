@@ -5,7 +5,7 @@
 	"events": [
 		{
 			"id": "EONET_24962",
-			"title": "Typhoon Choi-wan",
+			"title": "Super Typhoon Choi-wan",
             "description": null,
 			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24962",
 			"closed": null,
@@ -151,6 +151,14 @@
 					"date": "2026-10-04T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 147, 22.9 ]
+							},
+
+							{
+							"magnitudeValue": 135.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-04T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 146.9, 23.3 ]
 							}
 
 						
@@ -496,6 +504,14 @@
 					"date": "2026-10-04T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -113, 20.1 ]
+							},
+
+							{
+							"magnitudeValue": 90.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-04T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -113.5, 20.2 ]
 							}
 
 						
@@ -948,6 +964,14 @@
 					"date": "2026-10-04T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -175.9, 23.5 ]
+							},
+
+							{
+							"magnitudeValue": 95.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-04T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -177.8, 23.6 ]
 							}
 
 						
