@@ -38,6 +38,104 @@
 		},
 
 			{
+			"id": "EONET_25063",
+			"title": "Hurricane Isaias",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25063",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "NOAA_NHC",
+					"url": "https://www.nhc.noaa.gov/archive/2026/ISAIAS.shtml"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-07T09:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -94.1, 22 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-07T15:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -93.6, 22.4 ]
+							},
+
+							{
+							"magnitudeValue": 55.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-07T21:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -92.9, 22.7 ]
+							},
+
+							{
+							"magnitudeValue": 60.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-08T03:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -91.9, 22.9 ]
+							},
+
+							{
+							"magnitudeValue": 70.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-08T09:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -91.2, 23.3 ]
+							},
+
+							{
+							"magnitudeValue": 75.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-08T15:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -90.2, 23.7 ]
+							},
+
+							{
+							"magnitudeValue": 85.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-08T21:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -89.3, 24.4 ]
+							},
+
+							{
+							"magnitudeValue": 90.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-09T03:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -88.4, 25.4 ]
+							},
+
+							{
+							"magnitudeValue": 95.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-09T09:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -88, 26.4 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_25117",
 			"title": "Wildfire Jones, Elko, Nevada",
             "description": "1 Miles S from Deeth, NV",
@@ -3363,40 +3461,6 @@
 					"date": "2026-08-22T23:16:00Z",
 					"type": "Point", 
 							"coordinates": [ -121.4353, 48.652417 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_23679",
-			"title": "Wildfire GOAT, Kittitas, Washington",
-            "description": "15 Miles N from Ronald, WA",
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23679",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-WAOWF-260711"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 707.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-08-22T21:06:00Z",
-					"type": "Point", 
-							"coordinates": [ -121.052783, 47.458917 ]
 							}
 
 						
