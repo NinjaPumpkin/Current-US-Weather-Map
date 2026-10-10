@@ -87,6 +87,22 @@
 					"date": "2026-10-09T12:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -104.5, 15.9 ]
+							},
+
+							{
+							"magnitudeValue": 90.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-09T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -104.7, 16 ]
+							},
+
+							{
+							"magnitudeValue": 105.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-10T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -104.6, 16.6 ]
 							}
 
 						
@@ -355,6 +371,22 @@
 					"date": "2026-10-09T12:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 154.1, 20.1 ]
+							},
+
+							{
+							"magnitudeValue": 100.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-09T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 153, 20.7 ]
+							},
+
+							{
+							"magnitudeValue": 110.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-10T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 151.5, 21.4 ]
 							}
 
 						
@@ -1102,6 +1134,22 @@
 					"date": "2026-10-09T12:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -124.9, 22.6 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-09T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -124.5, 23 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-10T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -123.7, 23.6 ]
 							}
 
 						
@@ -1727,6 +1775,22 @@
 					"date": "2026-10-09T12:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 147.8, 29.4 ]
+							},
+
+							{
+							"magnitudeValue": 50.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-09T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 147.2, 30 ]
+							},
+
+							{
+							"magnitudeValue": 50.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-10T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 146.8, 30.6 ]
 							}
 
 						
