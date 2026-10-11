@@ -475,7 +475,7 @@
 
 			{
 			"id": "EONET_24875",
-			"title": "Hurricane Rachel",
+			"title": "Cyclone Rachel",
             "description": null,
 			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24875",
 			"closed": null,
@@ -930,6 +930,14 @@
 					"date": "2026-10-11T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -117, 28.5 ]
+							},
+
+							{
+							"magnitudeValue": 50.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-11T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -116.3, 31.8 ]
 							}
 
 						
