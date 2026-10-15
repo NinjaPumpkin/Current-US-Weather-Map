@@ -4,6 +4,108 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/events",
 	"events": [
 		{
+			"id": "EONET_25310",
+			"title": "Prescribed Fire Newman Piles RX, Coconino, Arizona",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25310",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001566"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 751.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-14T10:42:00Z",
+					"type": "Point", 
+							"coordinates": [ -111.65, 35.016667 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_25311",
+			"title": "Prescribed Fire Jane 102 RX, Harney, Oregon",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25311",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-ORMAF-002746"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 3000.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-13T10:24:00Z",
+					"type": "Point", 
+							"coordinates": [ -118.766432, 44.025847 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_25312",
+			"title": "Prescribed Fire SRF 2026 Rx Implementation, Humboldt, California",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25312",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-CASRF-000982"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 500.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-12T16:27:00Z",
+					"type": "Point", 
+							"coordinates": [ -123.540573, 41.300685 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_25238",
 			"title": "Wildfire Buckhorn 2, Cassia, Idaho",
             "description": "12 Miles S from Murtaugh, ID",
@@ -133,6 +235,40 @@
 					"date": "2026-10-09T11:49:00Z",
 					"type": "Point", 
 							"coordinates": [ -112.185988, 36.73752 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_25309",
+			"title": "Wildfire Craig Lake 1, Baraga, Michigan",
+            "description": "7 Miles NW from Michigamme, MI",
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25309",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-MIMIS-070006"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 604.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-08T18:05:00Z",
+					"type": "Point", 
+							"coordinates": [ -88.16960353, 46.63331342 ]
 							}
 
 						
@@ -3842,142 +3978,6 @@
 					"date": "2026-08-24T15:31:00Z",
 					"type": "Point", 
 							"coordinates": [ -98.12037, 31.49444497 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_23459",
-			"title": "Wildfire Tom Creek, Tooele, Utah",
-            "description": "10 Miles S from Dugway, UT",
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23459",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-UTWDD-200672"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 4859.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-08-24T15:20:00Z",
-					"type": "Point", 
-							"coordinates": [ -112.705867, 40.00455 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_23452",
-			"title": "Wildfire Ross, Palo Pinto, Texas",
-            "description": "1 Miles W from Palo Pinto, TX",
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23452",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-267549"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 80000.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-08-24T14:12:00Z",
-					"type": "Point", 
-							"coordinates": [ -98.34256986, 32.75981855 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_23458",
-			"title": "Wildfire Oxley, Elko, Nevada",
-            "description": "5 Miles N from Wells, NV",
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23458",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-NVEKD-010515"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 11384.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-08-24T14:12:00Z",
-					"type": "Point", 
-							"coordinates": [ -114.930833, 41.1845 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_23461",
-			"title": "Wildfire H2, Palm Beach, Florida",
-            "description": "6 Miles NW from DEEM CITY, FL",
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23461",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-FLFLS-261800142"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 511.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-08-24T11:50:00Z",
-					"type": "Point", 
-							"coordinates": [ -80.7905556, 26.4197222 ]
 							}
 
 						

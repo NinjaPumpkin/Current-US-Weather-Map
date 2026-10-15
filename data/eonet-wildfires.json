@@ -4,6 +4,108 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/8",
 	"events": [
 		{
+			"id": "EONET_25310",
+			"title": "Prescribed Fire Newman Piles RX, Coconino, Arizona",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25310",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001566"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 751.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-14T10:42:00Z",
+					"type": "Point", 
+							"coordinates": [ -111.65, 35.016667 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_25311",
+			"title": "Prescribed Fire Jane 102 RX, Harney, Oregon",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25311",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-ORMAF-002746"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 3000.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-13T10:24:00Z",
+					"type": "Point", 
+							"coordinates": [ -118.766432, 44.025847 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_25312",
+			"title": "Prescribed Fire SRF 2026 Rx Implementation, Humboldt, California",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25312",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-CASRF-000982"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 500.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-12T16:27:00Z",
+					"type": "Point", 
+							"coordinates": [ -123.540573, 41.300685 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_25238",
 			"title": "Wildfire Buckhorn 2, Cassia, Idaho",
             "description": "12 Miles S from Murtaugh, ID",
@@ -133,6 +235,40 @@
 					"date": "2026-10-09T11:49:00Z",
 					"type": "Point", 
 							"coordinates": [ -112.185988, 36.73752 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_25309",
+			"title": "Wildfire Craig Lake 1, Baraga, Michigan",
+            "description": "7 Miles NW from Michigamme, MI",
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25309",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-MIMIS-070006"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 604.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-08T18:05:00Z",
+					"type": "Point", 
+							"coordinates": [ -88.16960353, 46.63331342 ]
 							}
 
 						
@@ -1561,142 +1697,6 @@
 					"date": "2026-09-14T11:43:00Z",
 					"type": "Point", 
 							"coordinates": [ -107.6275, 45.5398 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_24715",
-			"title": "Prescribed Fire D7 Rhoton Seep RX, Apache, Arizona",
-            "description": null,
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24715",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000947"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 2609.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-09-14T11:06:00Z",
-					"type": "Point", 
-							"coordinates": [ -109.807526, 34.156645 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_24711",
-			"title": "Prescribed Fire D7 Morgan Unit 5 RX, Navajo, Arizona",
-            "description": null,
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24711",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000946"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 2085.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-09-14T11:05:00Z",
-					"type": "Point", 
-							"coordinates": [ -110.122144, 34.225084 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_24713",
-			"title": "Prescribed Fire D7 Butler West RX, Apache, Arizona",
-            "description": null,
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24713",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000945"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 788.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-09-14T11:03:00Z",
-					"type": "Point", 
-							"coordinates": [ -109.720126, 34.191317 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_24714",
-			"title": "Prescribed Fire D7 Brushy Mtn South RX, Apache, Arizona",
-            "description": null,
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24714",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000944"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 887.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-09-14T11:01:00Z",
-					"type": "Point", 
-							"coordinates": [ -109.811902, 34.127578 ]
 							}
 
 						
