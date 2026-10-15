@@ -5,7 +5,7 @@
 	"events": [
 		{
 			"id": "EONET_25290",
-			"title": "Tropical Storm Trudy",
+			"title": "Hurricane Trudy",
             "description": null,
 			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25290",
 			"closed": null,
@@ -63,6 +63,22 @@
 					"date": "2026-10-14T18:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -99.7, 11.7 ]
+							},
+
+							{
+							"magnitudeValue": 55.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-15T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -100.5, 12.1 ]
+							},
+
+							{
+							"magnitudeValue": 65.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-15T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -101.2, 12.6 ]
 							}
 
 						
@@ -313,6 +329,30 @@
 					"date": "2026-10-14T12:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -108, 19.8 ]
+							},
+
+							{
+							"magnitudeValue": 75.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-14T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -108.3, 19.5 ]
+							},
+
+							{
+							"magnitudeValue": 55.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-15T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -108.5, 19.2 ]
+							},
+
+							{
+							"magnitudeValue": 55.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-15T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -108.5, 19.2 ]
 							}
 
 						
