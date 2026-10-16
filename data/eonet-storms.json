@@ -4,6 +4,90 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
 		{
+			"id": "EONET_25340",
+			"title": "Tropical Cyclone 01P",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25340",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/sh0127.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-16T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -163.3, -10.8 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_25339",
+			"title": "Tropical Storm Champi",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25339",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/wp2926.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-15T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 157.4, 11 ]
+							},
+
+							{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-15T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 155.7, 11.2 ]
+							},
+
+							{
+							"magnitudeValue": 45.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-16T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 153.8, 11.3 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_25290",
 			"title": "Hurricane Trudy",
             "description": null,
