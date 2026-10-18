@@ -63,6 +63,22 @@
 					"date": "2026-10-17T06:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -163.2, -13.2 ]
+							},
+
+							{
+							"magnitudeValue": 60.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-17T12:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -163.1, -14.4 ]
+							},
+
+							{
+							"magnitudeValue": 65.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-17T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -163.2, -14.8 ]
 							}
 
 						
@@ -71,7 +87,7 @@
 
 			{
 			"id": "EONET_25339",
-			"title": "Typhoon Champi",
+			"title": "Super Typhoon Champi",
             "description": null,
 			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25339",
 			"closed": null,
@@ -161,6 +177,14 @@
 					"date": "2026-10-17T12:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 146.1, 12.6 ]
+							},
+
+							{
+							"magnitudeValue": 130.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-17T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 144.8, 13.1 ]
 							}
 
 						
