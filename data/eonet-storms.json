@@ -4,6 +4,113 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
 		{
+			"id": "EONET_25729",
+			"title": "Tropical Cyclone Arnab",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25729",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/io0226.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-25T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 89.3, 15.6 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_25730",
+			"title": "Tropical Storm Olana",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25730",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/cp0326.tcw"
+				},
+
+							{
+					"id": "NOAA_NHC",
+					"url": "https://www.nhc.noaa.gov/archive/2026/OLANA.shtml"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-25T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -178.5, 14.7 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_25728",
+			"title": "Typhoon In-fa",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25728",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/wp3026.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-23T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 166.1, 10.5 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_25589",
 			"title": "Hurricane Vance",
             "description": null,
@@ -20,6 +127,11 @@
 					{
 					"id": "JTWC",
 					"url": "https://www.metoc.navy.mil/jtwc/products/ep2226.tcw"
+				},
+
+							{
+					"id": "NOAA_NHC",
+					"url": "https://www.nhc.noaa.gov/archive/2026/VANCE.shtml"
 				}
 
 						
@@ -159,6 +271,22 @@
 					"date": "2026-10-25T18:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -104, 14.6 ]
+							},
+
+							{
+							"magnitudeValue": 55.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-26T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -104.5, 14.9 ]
+							},
+
+							{
+							"magnitudeValue": 55.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-26T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -105, 15.2 ]
 							}
 
 						
