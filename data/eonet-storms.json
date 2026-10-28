@@ -190,7 +190,7 @@
 
 			{
 			"id": "EONET_25728",
-			"title": "Typhoon In-fa",
+			"title": "Super Typhoon In-fa",
             "description": null,
 			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25728",
 			"closed": null,
@@ -352,6 +352,14 @@
 					"date": "2026-10-28T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ 159.9, 14.9 ]
+							},
+
+							{
+							"magnitudeValue": 130.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-28T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 158.9, 15.1 ]
 							}
 
 						
@@ -591,6 +599,14 @@
 					"date": "2026-10-28T00:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -108.3, 16.9 ]
+							},
+
+							{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-10-28T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -108.6, 18 ]
 							}
 
 						
