@@ -1,8 +1,8 @@
 {
-  "goes18": {
+  "goes16": {
     "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
   },
-  "goes16": {
+  "goes18": {
     "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
   }
 }
