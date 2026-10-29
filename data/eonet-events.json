@@ -4,6 +4,142 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/events",
 	"events": [
 		{
+			"id": "EONET_25827",
+			"title": "Wildfire South Tank Trail, Perry, Mississippi",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25827",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-MSMNF-000680"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 1000.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-28T18:02:00Z",
+					"type": "Point", 
+							"coordinates": [ -89.097783, 31.085833 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_25829",
+			"title": "Prescribed Fire Walker Hill 3 Piles RX, Coconino, Arizona",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25829",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001563"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 784.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-28T11:22:00Z",
+					"type": "Point", 
+							"coordinates": [ -111.835978, 35.259781 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_25830",
+			"title": "Prescribed Fire Brie Slash Piles RX, Coconino, Arizona",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25830",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001597"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 700.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-28T11:21:00Z",
+					"type": "Point", 
+							"coordinates": [ -111.315915, 34.545833 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_25828",
+			"title": "Prescribed Fire Newman 3 Piles RX, Coconino, Arizona",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25828",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001600"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 756.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-28T10:09:00Z",
+					"type": "Point", 
+							"coordinates": [ -111.639444, 35.017139 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_25769",
 			"title": "Wildfire Range  47B, Forrest, Mississippi",
             "description": "3 Miles NE from Brooklyn, MS",
@@ -3261,142 +3397,6 @@
 					"date": "2026-08-27T01:42:00Z",
 					"type": "Point", 
 							"coordinates": [ -112.4795, 41.288667 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_23453",
-			"title": "Wildfire Calico, Humboldt, Nevada",
-            "description": "71 Miles N from Winnemucca, NV",
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23453",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-NVHTF-020624"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 10000.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-08-26T17:29:00Z",
-					"type": "Point", 
-							"coordinates": [ -117.3563, 41.86665 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_23672",
-			"title": "Wildfire Dudley, Shoshone, Idaho",
-            "description": "5 Miles N from Wallace, ID",
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23672",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-IDIPF-000730"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 553.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-08-26T16:46:00Z",
-					"type": "Point", 
-							"coordinates": [ -115.920767, 47.539417 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_23681",
-			"title": "Wildfire Plaskett, Monterey, California",
-            "description": "34 Miles SW from Big Sur, CA",
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23681",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-CALPF-002475"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 15479.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-08-26T12:46:00Z",
-					"type": "Point", 
-							"coordinates": [ -121.4125, 35.905667 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_23455",
-			"title": "Wildfire McConnell, Humboldt, Nevada",
-            "description": "3 Miles E from Orovada, NV",
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23455",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-NVWID-020620"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 5000.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-08-25T20:43:00Z",
-					"type": "Point", 
-							"coordinates": [ -117.74215, 41.517567 ]
 							}
 
 						
