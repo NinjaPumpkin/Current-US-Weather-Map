@@ -4,6 +4,108 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/8",
 	"events": [
 		{
+			"id": "EONET_25984",
+			"title": "Prescribed Fire Dry Lake Hills Piles RX, Coconino, Arizona",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25984",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001612"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 902.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-30T10:13:00Z",
+					"type": "Point", 
+							"coordinates": [ -111.616667, 35.266667 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_25986",
+			"title": "Prescribed Fire McCarty Piles RX, Coconino, Arizona",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25986",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001609"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 832.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-29T12:16:00Z",
+					"type": "Point", 
+							"coordinates": [ -111.262694, 34.513944 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_25985",
+			"title": "Prescribed Fire Freidland-Chimney Piles RX, Coconino, Arizona",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25985",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001608"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 1029.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-29T11:37:00Z",
+					"type": "Point", 
+							"coordinates": [ -111.666667, 35.283333 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_25827",
 			"title": "Wildfire South Tank Trail, Perry, Mississippi",
             "description": null,
@@ -1595,108 +1697,6 @@
 					"date": "2026-09-18T15:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -112.314683, 41.4797 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_24719",
-			"title": "Prescribed Fire D2 Dye RX, Coconino, Arizona",
-            "description": null,
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24719",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000955"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 5246.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-09-17T17:44:00Z",
-					"type": "Point", 
-							"coordinates": [ -110.9112, 34.43545 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_24718",
-			"title": "Prescribed Fire D2 Vincent RX, Coconino, Arizona",
-            "description": null,
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24718",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000953"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 2258.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-09-17T17:35:00Z",
-					"type": "Point", 
-							"coordinates": [ -110.965566, 34.446292 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_24483",
-			"title": "Wildfire Breezy, Starr, Texas",
-            "description": "7 Miles NE from Rio Grande City, TX",
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24483",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-268653"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 500.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-09-16T20:17:00Z",
-					"type": "Point", 
-							"coordinates": [ -98.712896, 26.45826 ]
 							}
 
 						

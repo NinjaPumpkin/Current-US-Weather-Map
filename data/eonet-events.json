@@ -4,6 +4,108 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/events",
 	"events": [
 		{
+			"id": "EONET_25984",
+			"title": "Prescribed Fire Dry Lake Hills Piles RX, Coconino, Arizona",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25984",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001612"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 902.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-30T10:13:00Z",
+					"type": "Point", 
+							"coordinates": [ -111.616667, 35.266667 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_25986",
+			"title": "Prescribed Fire McCarty Piles RX, Coconino, Arizona",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25986",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001609"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 832.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-29T12:16:00Z",
+					"type": "Point", 
+							"coordinates": [ -111.262694, 34.513944 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_25985",
+			"title": "Prescribed Fire Freidland-Chimney Piles RX, Coconino, Arizona",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25985",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-AZCOF-001608"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 1029.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-29T11:37:00Z",
+					"type": "Point", 
+							"coordinates": [ -111.666667, 35.283333 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_25827",
 			"title": "Wildfire South Tank Trail, Perry, Mississippi",
             "description": null,
@@ -3295,108 +3397,6 @@
 					"date": "2026-08-29T14:17:00Z",
 					"type": "Point", 
 							"coordinates": [ -100.3149, 30.18416667 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_23664",
-			"title": "Wildfire West Fork, Sutton, Texas",
-            "description": "25 Miles SW from Junction, TX",
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23664",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-267801"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 961.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-08-28T19:23:00Z",
-					"type": "Point", 
-							"coordinates": [ -100.1516574, 30.36872624 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_23669",
-			"title": "Wildfire Roe 2, Beaverhead, Montana",
-            "description": "20 Miles S from Dillon, MT",
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23669",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-MTCES-266405"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 978.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-08-27T19:48:00Z",
-					"type": "Point", 
-							"coordinates": [ -112.77825, 44.921867 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_23668",
-			"title": "Wildfire Brushy Canyon, Box Elder, Utah",
-            "description": "4 Miles N from Promontory, UT",
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_23668",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-UTBRS-200695"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 10002.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-08-27T01:42:00Z",
-					"type": "Point", 
-							"coordinates": [ -112.4795, 41.288667 ]
 							}
 
 						
