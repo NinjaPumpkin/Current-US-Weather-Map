@@ -4,6 +4,40 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/8",
 	"events": [
 		{
+			"id": "EONET_26057",
+			"title": "Wildfire Wild River, Coos, New Hampshire",
+            "description": "5 Miles SW from Shelburne, NH",
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26057",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-NHWMF-000182"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 982.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-11-02T07:58:00Z",
+					"type": "Point", 
+							"coordinates": [ -71.031283, 44.330583 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_25984",
 			"title": "Prescribed Fire Dry Lake Hills Piles RX, Coconino, Arizona",
             "description": null,
@@ -99,6 +133,40 @@
 					"date": "2026-10-29T11:37:00Z",
 					"type": "Point", 
 							"coordinates": [ -111.666667, 35.283333 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26056",
+			"title": "Prescribed Fire TON RX - BAILEY LOST HP, Okanogan, Washington",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26056",
+			"closed": null,
+				"categories": [
+					{
+					"id": "wildfires",
+					"title": "Wildfires"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "IRWIN",
+					"url": "https://irwin.doi.gov/observer/incidents/2026-WACOF-002153"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 740.00,
+					"magnitudeUnit": "acres",
+					"date": "2026-10-29T11:08:00Z",
+					"type": "Point", 
+							"coordinates": [ -119.055205, 48.532726 ]
 							}
 
 						
@@ -1629,74 +1697,6 @@
 					"date": "2026-09-20T17:32:00Z",
 					"type": "Point", 
 							"coordinates": [ -91.989455, 32.858241 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_24810",
-			"title": "Prescribed Fire CRAWFORD CORRAL RX, Tulare, California",
-            "description": null,
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24810",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-CATUU-000092"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 690.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-09-19T13:26:00Z",
-					"type": "Point", 
-							"coordinates": [ -118.9721, 36.601661 ]
-							}
-
-						
-			]
-		},
-
-			{
-			"id": "EONET_24906",
-			"title": "Prescribed Fire Bear River MBR Unit 2c RX, Box Elder, Utah",
-            "description": null,
-			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_24906",
-			"closed": null,
-				"categories": [
-					{
-					"id": "wildfires",
-					"title": "Wildfires"
-				}
-
-	    				],
-    			"sources": [
-					{
-					"id": "IRWIN",
-					"url": "https://irwin.doi.gov/observer/incidents/2026-UTBBR-200788"
-				}
-
-						
-			],
-					"geometry": [
-					{
-							"magnitudeValue": 710.00,
-					"magnitudeUnit": "acres",
-					"date": "2026-09-18T15:00:00Z",
-					"type": "Point", 
-							"coordinates": [ -112.314683, 41.4797 ]
 							}
 
 						
