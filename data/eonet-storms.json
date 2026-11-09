@@ -4,6 +4,108 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
 		{
+			"id": "EONET_26159",
+			"title": "Tropical Cyclone 03S",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26159",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/sh0327.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-11-07T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 52.6, -13.5 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26157",
+			"title": "Typhoon Cempaka",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26157",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/wp3126.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-11-07T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 144.2, 19.1 ]
+							}
+
+						
+			]
+		},
+
+			{
+			"id": "EONET_26158",
+			"title": "Tropical Storm Pena",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26158",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/cp0426.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 40.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-11-06T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -149.6, 11.2 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_25728",
 			"title": "Super Typhoon In-fa",
             "description": null,
