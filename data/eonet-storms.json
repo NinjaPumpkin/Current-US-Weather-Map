@@ -4,6 +4,40 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
 		{
+			"id": "EONET_26463",
+			"title": "Tropical Cyclone Xavier",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26463",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/sh0427.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-11-15T08:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -158.9, -8.2 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_26157",
 			"title": "Typhoon Cempaka",
             "description": null,
