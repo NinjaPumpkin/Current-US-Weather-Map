@@ -4,6 +4,40 @@
 	"link": "https://eonet.gsfc.nasa.gov/api/v3/categories/10",
 	"events": [
 		{
+			"id": "EONET_26494",
+			"title": "Tropical Cyclone Akvan",
+            "description": null,
+			"link": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26494",
+			"closed": null,
+				"categories": [
+					{
+					"id": "severeStorms",
+					"title": "Severe Storms"
+				}
+
+	    				],
+    			"sources": [
+					{
+					"id": "JTWC",
+					"url": "https://www.metoc.navy.mil/jtwc/products/io0526.tcw"
+				}
+
+						
+			],
+					"geometry": [
+					{
+							"magnitudeValue": 35.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-11-16T18:00:00Z",
+					"type": "Point", 
+							"coordinates": [ 86.8, 11.4 ]
+							}
+
+						
+			]
+		},
+
+			{
 			"id": "EONET_26463",
 			"title": "Tropical Cyclone Xavier",
             "description": null,
@@ -79,6 +113,22 @@
 					"date": "2026-11-16T18:00:00Z",
 					"type": "Point", 
 							"coordinates": [ -162.6, -8.9 ]
+							},
+
+							{
+							"magnitudeValue": 105.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-11-17T00:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -163.2, -9 ]
+							},
+
+							{
+							"magnitudeValue": 125.00,
+					"magnitudeUnit": "kts",
+					"date": "2026-11-17T06:00:00Z",
+					"type": "Point", 
+							"coordinates": [ -163.5, -9.1 ]
 							}
 
 						
